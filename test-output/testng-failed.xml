@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [DealNsum Automation Test Suite]" parallel="tests">
+  <test thread-count="2" name="DealNsum Test Cases with firefox browser(failed)" parallel="tests">
+    <parameter name="Name" value="firefox"/>
+    <classes>
+      <class name="com.dealnsum.qa.testcases.HomePageTest">
+        <methods>
+          <include name="VerifyUser"/>
+          <include name="VerifyHomePageTitle"/>
+          <include name="VerifySettingButton"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.dealnsum.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- DealNsum Test Cases with firefox browser(failed) -->
+</suite> <!-- Failed suite [DealNsum Automation Test Suite] -->

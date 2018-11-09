@@ -1,0 +1,10 @@
+<suite name="gdgdgd">
+ <listners>
+  <listner class-name="pass class name of listnerclass"/>
+ </listners>
+  <test nam="dsds">
+    <classes>
+      <class name="com.dealnsum.qa.testcases.HomePageTest"></class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DealNsum Automation Test Suite" parallel="tests" thread-count="2" preserve-order="true">
+  <test name="DealNsum Test Cases with chrome browser" >
+  <parameter name="Name" value="chrome"/>
+        <classes>
+         <class name="com.dealnsum.qa.testcases.HomePageTest"></class>   
+        </classes>
+  </test> 
+  
+  <test name="DealNsum Test Cases with firefox browser" >
+  <parameter name="Name" value="firefox"/>
+        <classes>
+         <class name="com.dealnsum.qa.testcases.HomePageTest"></class>   
+        </classes>
+  </test>
+  
+</suite>
